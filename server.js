@@ -14,11 +14,11 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "Z";
+const prefix = "R";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util"); 
-const dev = ["832653324897091637"];
+const dev = ["971868615538270229"];
 const cmd = require("node-cmd");
 const { I18n } = require("locale-parser");
 bot.reva = new I18n({ defaultLocale: "en" });
@@ -95,4 +95,4 @@ bot.on("messageCreate", async message => {
 
  
 
-bot.login("OTUxMTkyNDMzNzY3NjI0NzM0.Yij4_A.2zbw2LORYLe8ThNmQ4KHakD9Tds");
+bot.login("OTgzMzA0MDI0NDQ1MDU1MDM2.GQtj_J.igCT1mPPL20sh0jzqnNMhJunBgsff5iA4SmJL0");
