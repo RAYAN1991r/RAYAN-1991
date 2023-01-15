@@ -14,7 +14,7 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "R";
+const prefix = "V";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util"); 
@@ -95,4 +95,4 @@ bot.on("messageCreate", async message => {
 
  
 
-bot.login("OTgzMzA0MDI0NDQ1MDU1MDM2.GQtj_J.igCT1mPPL20sh0jzqnNMhJunBgsff5iA4SmJL0");
+bot.login("MTAwMzMxNDk3ODAyNTExMTY1NQ.Guhd1h.HuJDObcx2iCsOnMAHrlpb2OVh_U4YQK9E6saVI");
